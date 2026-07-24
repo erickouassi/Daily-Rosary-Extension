@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Rosary | Pray the Rosary in your Browser</title>
+    <style>
+        :root { --primary-blue: #1a73e8; --text: #202124; --subtext: #5f6368; --bg: #ffffff; --green: #1e8e3e; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; text-align: center; }
+        
+        /* Navbar */
+        nav { display: flex; justify-content: space-between; padding: 20px 50px; align-items: center; }
+        .logo { font-weight: 700; font-size: 20px; color: var(--primary-blue); display: flex; align-items: center; gap: 10px; }
+        .logo img { width: 32px; border-radius: 8px; }
+        .nav-btn { background: var(--primary-blue); color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 14px; }
+
+        /* Hero */
+        .hero { padding: 80px 20px; }
+        h1 { font-size: 56px; margin: 0 0 20px 0; letter-spacing: -1px; }
+        .highlight { color: var(--primary-blue); }
+        .subtitle { font-size: 20px; color: var(--subtext); max-width: 600px; margin: 0 auto 40px; }
+
+        /* CTA Card */
+        .cta-card { border: 1px solid #dadce0; border-radius: 8px; padding: 40px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .btn-green { background: var(--green); color: white; padding: 16px 32px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 18px; display: inline-block; }
+        .version { margin-top: 15px; color: var(--subtext); font-size: 14px; }
+
+        /* Footer */
+        footer { margin-top: 80px; padding: 40px; border-top: 1px solid #dadce0; color: var(--subtext); font-size: 14px; }
+        footer a { color: var(--primary-blue); margin: 0 15px; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <img src="icons/android-chrome-128x128.png" alt="Icon"> Daily Rosary
+    </div>
+    <a href="https://chromewebstore.google.com/detail/gfcmpabbhmojcgbimghfbhcbaaekanjp" class="nav-btn" target="_blank">Get Extension</a>
+</nav>
+
+<div class="hero">
+    <h1>Pray the Rosary with <span class="highlight">peace of mind.</span></h1>
+    <p class="subtitle">Daily Rosary mysteries automatically updated and delivered in a distraction-free audio player directly within your browser.</p>
+
+    <div class="cta-card">
+        <a href="https://chromewebstore.google.com/detail/gfcmpabbhmojcgbimghfbhcbaaekanjp" class="btn-green" target="_blank">Add to Chrome — It's Free</a>
+        <p class="version">Version 1.0.2 | Requires Chrome v90+</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Eric Kouassi</p>
+    <a href="https://erickouassi.com/support.html" target="_blank">Support</a>
+    <a href="https://erickouassi.com/privacy.html">Privacy Policy</a>
+    <a href="https://github.com/your-username/daily-rosary" target="_blank">GitHub</a>
+</footer>
+
+</body>
+</html>
